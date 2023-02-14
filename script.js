@@ -1,21 +1,16 @@
 window.onload = function(){
-    var img = document.getElementById("popcat1"); 
-    var audio = new Audio("pop.mp3");
+    var img = document.getElementById("macho"); 
+    var audio = new Audio("pagupitako.mp3");
+    var audio1 = new Audio("haircut.mp3");
 
     img.addEventListener('mouseup', function (){
         img.src = '2.png';
-        audio.play();
+        audio.play().loop;
     });
 
-    img.addEventListener('mouseup', function (){
+    img.addEventListener('mousedown', function (){
         img.src = '3.png';
-        audio.play();
+        audio1.play();
     });
-
-
-    img.addEventListener('mousedown', function () {
-        img.src = '1.png';
-    });
-   
 
 }

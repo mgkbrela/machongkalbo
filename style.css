@@ -4,6 +4,7 @@ body {
     background: url(bg.jpg);
     min-width:100%;
     background-size: cover;
+    cursor: url(cursor.png), auto;
 }
 .container{
     display:flex;
@@ -13,6 +14,11 @@ body {
     min-width: 100%;
     position: absolute;
 }
+.container1 {
+    display:contents;
+    padding:0;
+    margin-left: 50%;
+}
 h1{
     font-size: 6.5em;
     font-family: "Lucida Handwriting", cursive;
@@ -20,6 +26,13 @@ h1{
     color: #ff1ae5;
     padding-bottom: 3%;
     text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff, 0 0 60px #ffffff, 0 0 10px #ffffff, 0 0 98px #ffffff;
+}
+h1 a {
+    color: #ff1ae5;
+}
+h1 a:hover {
+    color: #fffeff;
+      text-shadow: 0 0 5px #f81bc4, 0 0 15px #ff00b3, 0 0 20px #ff65c9, 0 0 40px #f820ff, 0 0 60px #ff10df, 0 0 10px #ff00d0, 0 0 98px #ffffff;
 }
 #country_score{
     margin-left: 50px;
