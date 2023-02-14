@@ -7,13 +7,13 @@ window.onload = function(){
         audio.play();
     });
 
-    img.addEventListener('mousedown', function (){
+    img.addEventListener('mouseup', function (){
         img.src = '3.png';
         audio.play();
     });
 
 
-    img.addEventListener('mouseleave', function () {
+    img.addEventListener('mousedown', function () {
         img.src = '1.png';
     });
    
